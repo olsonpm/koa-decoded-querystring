@@ -1,0 +1,32 @@
+{
+  "name": "koa-decoded-querystring",
+  "version": "0.1.0",
+  "description": "Adds a 'decodedQuerystring' property to ctx which is simply ctx.querystring passed through decodeURIComponent",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olsonpm/koa-decoded-querystring.git"
+  },
+  "keywords": [
+    "koa",
+    "decoded",
+    "querystring"
+  ],
+  "author": "phil olson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olsonpm/koa-decoded-querystring/issues"
+  },
+  "homepage": "https://github.com/olsonpm/koa-decoded-querystring#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "koa": "^2.0.0",
+    "lodash": "^4.13.1",
+    "mocha": "^2.5.3",
+    "request-promise": "^3.0.0"
+  }
+}
