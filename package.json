@@ -28,5 +28,11 @@
     "lodash": "^4.13.1",
     "mocha": "^2.5.3",
     "request-promise": "^3.0.0"
+  },
+  "peerDependencies": {
+    "koa": "2.x"
+  },
+  "engines": {
+    "node": ">= 4"
   }
 }
