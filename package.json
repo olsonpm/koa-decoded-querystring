@@ -1,6 +1,6 @@
 {
   "name": "koa-decoded-querystring",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Adds a 'decodedQuerystring' property to ctx which is simply ctx.querystring passed through decodeURIComponent",
   "main": "lib/index.js",
   "scripts": {

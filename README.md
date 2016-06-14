@@ -1,5 +1,12 @@
 # Koa Decoded Querystring
 
+## To use
+```js
+const koaDecodedQuerystring = require('koa-decoded-querystring');
+// ...
+app.use(koaDecodedQuerystring());
+```
+
 ## Very Simple
 This module is 5 lines long
 
